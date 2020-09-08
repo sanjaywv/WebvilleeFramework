@@ -1,0 +1,16 @@
+PODS:
+  - WebvilleeFramework (1.0.0)
+
+DEPENDENCIES:
+  - WebvilleeFramework (from `../WebvilleeFramework/`)
+
+EXTERNAL SOURCES:
+  WebvilleeFramework:
+    :path: "../WebvilleeFramework/"
+
+SPEC CHECKSUMS:
+  WebvilleeFramework: 392d03fc7f9a02e6af25f0612711d2f9f166fe97
+
+PODFILE CHECKSUM: 76a0bbdc4db32852982f7a3f00206cede498031a
+
+COCOAPODS: 1.8.4

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		6AC96E282507F8AD00006C7F /* WebvilleeFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC96E1E2507F8AD00006C7F /* WebvilleeFramework.framework */; };
 		6AC96E2D2507F8AD00006C7F /* WebvilleeFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC96E2C2507F8AD00006C7F /* WebvilleeFrameworkTests.swift */; };
-		6AC96E2F2507F8AD00006C7F /* WebvilleeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC96E212507F8AD00006C7F /* WebvilleeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6AC96E392507F8BA00006C7F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC96E382507F8BA00006C7F /* Service.swift */; };
+		6ADEAF522508072800C5746D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6ADEAF512508072800C5746D /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,11 +26,10 @@
 /* Begin PBXFileReference section */
 		6AC96E1E2507F8AD00006C7F /* WebvilleeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebvilleeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC96E212507F8AD00006C7F /* WebvilleeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebvilleeFramework.h; sourceTree = "<group>"; };
-		6AC96E222507F8AD00006C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AC96E272507F8AD00006C7F /* WebvilleeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebvilleeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC96E2C2507F8AD00006C7F /* WebvilleeFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebvilleeFrameworkTests.swift; sourceTree = "<group>"; };
-		6AC96E2E2507F8AD00006C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AC96E382507F8BA00006C7F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		6ADEAF512508072800C5746D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +72,8 @@
 		6AC96E202507F8AD00006C7F /* WebvilleeFramework */ = {
 			isa = PBXGroup;
 			children = (
+				6ADEAF512508072800C5746D /* Info.plist */,
 				6AC96E212507F8AD00006C7F /* WebvilleeFramework.h */,
-				6AC96E222507F8AD00006C7F /* Info.plist */,
 				6AC96E382507F8BA00006C7F /* Service.swift */,
 			);
 			path = WebvilleeFramework;
@@ -84,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				6AC96E2C2507F8AD00006C7F /* WebvilleeFrameworkTests.swift */,
-				6AC96E2E2507F8AD00006C7F /* Info.plist */,
 			);
 			path = WebvilleeFrameworkTests;
 			sourceTree = "<group>";
@@ -92,11 +90,10 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6AC96E192507F8AD00006C7F /* Headers */ = {
+		6ADEAF4E2508032100C5746D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AC96E2F2507F8AD00006C7F /* WebvilleeFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6AC96E322507F8AD00006C7F /* Build configuration list for PBXNativeTarget "WebvilleeFramework" */;
 			buildPhases = (
-				6AC96E192507F8AD00006C7F /* Headers */,
+				6ADEAF4E2508032100C5746D /* Headers */,
 				6AC96E1A2507F8AD00006C7F /* Sources */,
 				6AC96E1B2507F8AD00006C7F /* Frameworks */,
 				6AC96E1C2507F8AD00006C7F /* Resources */,
@@ -182,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ADEAF522508072800C5746D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -330,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -354,12 +352,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = WebvilleeFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wv.push.WebvilleeFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wv.push;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -380,12 +379,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = WebvilleeFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wv.push.WebvilleeFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wv.push;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
